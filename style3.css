@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    color: #292e47;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 125vh;  
+    line-height: 20px;
+    margin: 80px 80px 80px 80px;  
+    padding: 30px;  
+    background-color: #f2f4fb;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+  
+  
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      gap: 60px;
+      align-items: center;
+      justify-content: center;
+      }
+  
+.contactus-button { 
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+    background-color: #072AC8;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #072AC8;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 37px;
+    gap: 10px;
+    position: absolute;
+    width: 900px;
+    height: 60px;
+    top: 750px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #292e47;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+    
+  }
+  
+  .footer {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 200px;
+  }
+
+
+  .container-form {
+    margin-top: 100px;
+  }
+
+  .header-contactus {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+
+  
